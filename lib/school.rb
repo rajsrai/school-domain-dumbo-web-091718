@@ -16,9 +16,8 @@ end
 
 def sort
  sorted = {}
- roster.each { |grade, student|
+ roster.each do |grade, student|
  sorted[grade] = students.sort 
- }
 end
   sorted
 end
