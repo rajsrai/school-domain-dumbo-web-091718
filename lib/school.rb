@@ -15,7 +15,7 @@ def grade(student_grade)
 end
 
 def sort_students
-  @roster.sort_by!{ |m| m.group.name }
+  @roster.sort_by! { |m| m.name }
 end
   
 end
