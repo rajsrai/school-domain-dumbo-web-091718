@@ -15,7 +15,7 @@ def grade(student_grade)
 end
 
 def sort_students
-  @roster.sort_by! { |m| m.name }
+  temp = roster[ temp.sort_by { |key, val| key } ]
 end
   
 end
