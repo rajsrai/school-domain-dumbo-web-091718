@@ -14,8 +14,9 @@ def grade(student_grade)
   roster[student_grade]
 end
 
-def sort_students
-  temp = roster[ temp.sort_by { |key, val| key } ]
+def sorted
+ sorted = {}
+ 
 end
   
 end
